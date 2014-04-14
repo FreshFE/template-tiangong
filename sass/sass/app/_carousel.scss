@@ -1,0 +1,19 @@
+@import "compass/css3";
+
+.carousel {
+}
+
+.carousel-indicators {
+	bottom: 5px;
+	li {
+		border: none;
+		background: #e5e5e5;
+	}
+	.active {
+		background: #ea510b;
+	}
+}
+
+.carousel-caption {
+	display: none;
+}

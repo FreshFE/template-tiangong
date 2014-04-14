@@ -1,0 +1,101 @@
+@import "compass/css3";
+
+.navbar-topnav,
+.navbar-site {
+	margin-bottom: 0;
+	@include border-radius(0);
+	border: none;
+}
+
+.navbar-topnav {
+
+	$background: #ea510b;
+	$color: lighten($background, 35%);
+
+	background: $background;
+	height: 44px;
+	min-height: 0;
+
+	.navbar-contact {
+		line-height: 44px;
+		color: $color;
+	}
+
+	.navbar-form {
+		.form-control {
+			height: 28px;
+			border: none;
+		}
+	}
+
+	.navbar-nav {
+		> li > a {
+			padding-top: 12px;
+			padding-bottom: 12px;
+			color: $color;
+			@include transition-duration(500ms);
+		}
+
+		> li > a,
+		> li.active > a {
+			&:hover,
+			&:active {
+				color: #fff;
+				@include transition(500ms color linear);
+			}
+		}
+	}
+}
+
+.navbar-site {
+	background: #fff;
+	@include box-shadow(
+		inset 0 5px 5px rgba(0,0,0,.1),
+		0 5px 5px rgba(0,0,0,.1)
+	);
+
+	.navbar-brand {
+		width: 162px;
+		height: 37px;
+		background: url(../img/logo.png) no-repeat;
+		font-size: 0;
+		line-height: 0;
+		text-indent: -9999px;
+		margin-top: 30px;
+	}
+
+	.navbar-nav {
+
+		margin-top: 45px;
+		height: 55px;
+
+		> li {
+			margin-left: 30px;
+		}
+
+		> li > a {
+			padding: 1px 5px;
+			font-size: 16px;
+			border-bottom: solid 3px transparent;
+			@include transition-duration(500ms);
+
+			&:hover,
+			&:active {
+				background: transparent;
+				border-bottom-color: #ea510b;
+				color: #ea510b;
+				@include transition(500ms color,border-color linear);
+			}
+		}
+
+		> li.active > a {
+			&,
+			&:hover,
+			&:active {
+				background: transparent;
+				border-bottom-color: #ea510b;
+				color: #ea510b;
+			}
+		}
+	}
+}
