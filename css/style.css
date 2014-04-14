@@ -7937,6 +7937,84 @@ button.close {
   color: #ea510b;
 }
 
+/* line 103, ../sass/sass/app/_layout.scss */
+.footer {
+  padding-top: 20px;
+}
+/* line 109, ../sass/sass/app/_layout.scss */
+.footer .footer-intro {
+  border: solid 1px #dcdcdc;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+/* line 115, ../sass/sass/app/_layout.scss */
+.footer .footer-intro-object {
+  display: block;
+  margin: 0 auto;
+}
+/* line 120, ../sass/sass/app/_layout.scss */
+.footer .footer-board {
+  padding: 20px;
+  background: #535353;
+}
+/* line 125, ../sass/sass/app/_layout.scss */
+.footer .footer-nav {
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+/* line 128, ../sass/sass/app/_layout.scss */
+.footer .footer-nav > li {
+  margin-right: 10px;
+}
+/* line 131, ../sass/sass/app/_layout.scss */
+.footer .footer-nav > li > a {
+  padding: 0;
+  color: #bbbbbb;
+}
+/* line 135, ../sass/sass/app/_layout.scss */
+.footer .footer-nav > li > a:hover, .footer .footer-nav > li > a:active {
+  background: transparent;
+}
+/* line 142, ../sass/sass/app/_layout.scss */
+.footer .footer-nav > li.active > a, .footer .footer-nav > li.active > a:hover, .footer .footer-nav > li.active > a:active {
+  background: transparent;
+}
+/* line 148, ../sass/sass/app/_layout.scss */
+.footer .footer-follow {
+  margin-bottom: 10px;
+  color: #bbbbbb;
+  font-size: 12px;
+}
+/* line 153, ../sass/sass/app/_layout.scss */
+.footer .footer-follow span {
+  margin-right: 10px;
+}
+/* line 157, ../sass/sass/app/_layout.scss */
+.footer .footer-follow img {
+  margin-right: 10px;
+}
+/* line 162, ../sass/sass/app/_layout.scss */
+.footer .footer-credit {
+  margin-bottom: 10px;
+}
+/* line 164, ../sass/sass/app/_layout.scss */
+.footer .footer-credit img {
+  margin-right: 10px;
+}
+/* line 169, ../sass/sass/app/_layout.scss */
+.footer .footer-call {
+  color: #bbbbbb;
+}
+/* line 173, ../sass/sass/app/_layout.scss */
+.footer .copyright {
+  font-size: 12px;
+  color: #bbbbbb;
+}
+/* line 176, ../sass/sass/app/_layout.scss */
+.footer .copyright a {
+  color: #bbbbbb;
+}
+
 /* line 1, ../sass/sass/app/_utils.scss */
 .img-fullscreen {
   display: block;
