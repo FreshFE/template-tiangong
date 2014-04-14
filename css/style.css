@@ -8015,27 +8015,164 @@ button.close {
   color: #bbbbbb;
 }
 
+/* line 182, ../sass/sass/app/_layout.scss */
+.col-heading {
+  width: 100%;
+  position: relative;
+  height: 40px;
+  border-bottom: solid 4px #e5e5e5;
+  margin-bottom: 20px;
+}
+/* line 188, ../sass/sass/app/_layout.scss */
+.col-heading > h2 {
+  position: absolute;
+  font-size: 24px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  line-height: 30px;
+  border-bottom: solid 4px #ea510b;
+  top: 0;
+  left: 0;
+}
+
+/* line 205, ../sass/sass/app/_layout.scss */
+.pagination > li > span,
+.pagination > li > a {
+  color: #ea510b;
+}
+/* line 213, ../sass/sass/app/_layout.scss */
+.pagination > li > a:hover, .pagination > li > a:focus,
+.pagination > li > span:hover,
+.pagination > li > span:focus {
+  color: #ea510b;
+}
+/* line 222, ../sass/sass/app/_layout.scss */
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus,
+.pagination > .active > span,
+.pagination > .active > span:hover,
+.pagination > .active > span:focus {
+  background: #ea510b;
+  border-color: #d2490a;
+}
+
 /* line 1, ../sass/sass/app/_utils.scss */
 .img-fullscreen {
   display: block;
   width: 100%;
 }
 
-/* line 6, ../sass/sass/app/_carousel.scss */
+/* line 3, ../sass/sass/app/_carousel.scss */
+.carousel {
+  margin-bottom: 20px;
+}
+
+/* line 7, ../sass/sass/app/_carousel.scss */
 .carousel-indicators {
   bottom: 5px;
 }
-/* line 8, ../sass/sass/app/_carousel.scss */
+/* line 9, ../sass/sass/app/_carousel.scss */
 .carousel-indicators li {
   border: none;
   background: #e5e5e5;
 }
-/* line 12, ../sass/sass/app/_carousel.scss */
+/* line 13, ../sass/sass/app/_carousel.scss */
 .carousel-indicators .active {
   background: #ea510b;
 }
 
-/* line 17, ../sass/sass/app/_carousel.scss */
+/* line 18, ../sass/sass/app/_carousel.scss */
 .carousel-caption {
   display: none;
+}
+
+/* line 6, ../sass/sass/app/_card.scss */
+.card {
+  margin-bottom: 18px;
+}
+
+/* line 11, ../sass/sass/app/_card.scss */
+.card-object img {
+  width: 100%;
+}
+
+/* line 16, ../sass/sass/app/_card.scss */
+.card-body {
+  border: solid 1px #e5e5e5;
+  border-top: none;
+  padding: 18px;
+}
+
+/* line 22, ../sass/sass/app/_card.scss */
+.card-price {
+  margin-bottom: 18px;
+}
+/* line 25, ../sass/sass/app/_card.scss */
+.card-price .price {
+  position: relative;
+}
+/* line 29, ../sass/sass/app/_card.scss */
+.card-price .price > span {
+  position: relative;
+  font-size: 18px;
+  color: #666666;
+  margin: 0 auto;
+  background: #fff;
+  z-index: 2;
+  padding: 0 10px;
+}
+/* line 38, ../sass/sass/app/_card.scss */
+.card-price .price > hr {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin: 0;
+  color: #e5e5e5;
+  z-index: 1;
+}
+/* line 49, ../sass/sass/app/_card.scss */
+.card-price .category-name {
+  color: #b1b1b1;
+}
+
+/* line 55, ../sass/sass/app/_card.scss */
+.card-title a {
+  color: #666666;
+  font-size: 16px;
+  text-decoration: none;
+  -webkit-transition-duration: 250ms;
+  -moz-transition-duration: 250ms;
+  -o-transition-duration: 250ms;
+  transition-duration: 250ms;
+}
+/* line 62, ../sass/sass/app/_card.scss */
+.card-title a:hover, .card-title a:active {
+  color: #ea510b;
+  -webkit-transition: 250ms color linear;
+  -moz-transition: 250ms color linear;
+  -o-transition: 250ms color linear;
+  transition: 250ms color linear;
+}
+/* line 67, ../sass/sass/app/_card.scss */
+.card-title hr {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #e5e5e5;
+}
+
+/* line 75, ../sass/sass/app/_card.scss */
+.card-desc {
+  color: #b1b1b1;
+  margin-bottom: 18px;
+}
+
+/* line 80, ../sass/sass/app/_card.scss */
+.card-stars {
+  color: #b1b1b1;
+}
+/* line 83, ../sass/sass/app/_card.scss */
+.card-stars span {
+  font-size: 16px;
 }

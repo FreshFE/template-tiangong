@@ -178,3 +178,50 @@
 		}
 	}
 }
+
+.col-heading {
+	width: 100%;
+	position: relative;
+	height: 40px;
+	border-bottom: solid 4px #e5e5e5;
+	margin-bottom: 20px;
+	> h2 {
+		position: absolute;
+		font-size: 24px;
+		height: 40px;
+		margin: 0;
+		padding: 0;
+		line-height: 30px;
+		border-bottom: solid 4px #ea510b;
+		top: 0;
+		left: 0;
+	}
+}
+
+.pagination {
+
+	> li {
+		> span,
+		> a {
+			color: #ea510b;
+		}
+	}
+
+	> li > a,
+	> li > span {
+		&:hover,
+		&:focus {
+			color: #ea510b;
+		}
+	}
+
+	> .active > a,
+	> .active > span {
+		&,
+		&:hover,
+		&:focus {
+			background: #ea510b;
+			border-color: darken(#ea510b, 5%);
+		}
+	}
+}
