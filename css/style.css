@@ -8067,8 +8067,9 @@ button.close {
   -webkit-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 18px;
 }
-/* line 230, ../sass/sass/app/_layout.scss */
+/* line 231, ../sass/sass/app/_layout.scss */
 .col-block-heading > h2 {
   color: #333;
   font-size: 20px;
@@ -8077,23 +8078,23 @@ button.close {
   margin: 0;
   padding: 0;
 }
-/* line 238, ../sass/sass/app/_layout.scss */
+/* line 239, ../sass/sass/app/_layout.scss */
 .col-block-heading > h2 .important {
   color: #ea510b;
 }
 
-/* line 248, ../sass/sass/app/_layout.scss */
+/* line 249, ../sass/sass/app/_layout.scss */
 .pagination > li > span,
 .pagination > li > a {
   color: #ea510b;
 }
-/* line 256, ../sass/sass/app/_layout.scss */
+/* line 257, ../sass/sass/app/_layout.scss */
 .pagination > li > a:hover, .pagination > li > a:focus,
 .pagination > li > span:hover,
 .pagination > li > span:focus {
   color: #ea510b;
 }
-/* line 265, ../sass/sass/app/_layout.scss */
+/* line 266, ../sass/sass/app/_layout.scss */
 .pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus,
 .pagination > .active > span,
 .pagination > .active > span:hover,
@@ -8228,6 +8229,48 @@ button.close {
 /* line 83, ../sass/sass/app/_card.scss */
 .card-stars span {
   font-size: 16px;
+}
+
+/* line 88, ../sass/sass/app/_card.scss */
+.news-card-row {
+  margin-left: 0;
+  margin-right: 0;
+}
+/* line 93, ../sass/sass/app/_card.scss */
+.news-card-row .col-sm-6 {
+  padding: 18px;
+  border: solid 1px #e5e5e5;
+}
+
+/* line 103, ../sass/sass/app/_card.scss */
+.news-card-heading {
+  margin-bottom: 20px;
+}
+/* line 105, ../sass/sass/app/_card.scss */
+.news-card-heading a {
+  font-size: 20px;
+  color: #666666;
+}
+/* line 109, ../sass/sass/app/_card.scss */
+.news-card-heading em {
+  font-style: normal;
+  line-height: 28px;
+  color: #b1b1b1;
+}
+
+/* line 116, ../sass/sass/app/_card.scss */
+.news-card-desc {
+  margin-bottom: 20px;
+  color: #b1b1b1;
+}
+
+/* line 121, ../sass/sass/app/_card.scss */
+.news-card-object {
+  margin-bottom: 20px;
+}
+/* line 123, ../sass/sass/app/_card.scss */
+.news-card-object img {
+  width: 100%;
 }
 
 /* line 1, ../sass/sass/app/_picture.scss */

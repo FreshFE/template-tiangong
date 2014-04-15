@@ -84,3 +84,43 @@ $card-padding: 18px;
 		font-size: 16px;
 	}
 }
+
+.news-card-row {
+
+	margin-left: 0;
+	margin-right: 0;
+
+	.col-sm-6 {
+		padding: $card-padding;
+		border: solid 1px $card-border-color;
+	}
+}
+
+.news-card {
+
+}
+
+.news-card-heading {
+	margin-bottom: 20px;
+	a {
+		font-size: 20px;
+		color: $card-gray;
+	}
+	em {
+		font-style: normal;
+		line-height: 28px;
+		color: $card-gray-light;
+	}
+}
+
+.news-card-desc {
+	margin-bottom: 20px;
+	color: $card-gray-light;
+}
+
+.news-card-object {
+	margin-bottom: 20px;
+	img {
+		width: 100%;
+	}
+}
