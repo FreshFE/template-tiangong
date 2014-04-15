@@ -1,0 +1,11 @@
+.list {
+
+	& {
+		padding-left: 10px;
+	}
+
+	> li > a {
+		line-height: 23px;
+		color: #999;
+	}
+}

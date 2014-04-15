@@ -8135,6 +8135,21 @@ button.close {
   border: solid 1px #dcdcdc;
   border-top: none;
 }
+/* line 103, ../sass/sass/app/_utils.scss */
+.well-sidebar-body.padding {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+/* line 109, ../sass/sass/app/_utils.scss */
+.label-blank {
+  margin: 0 -5px;
+}
+/* line 111, ../sass/sass/app/_utils.scss */
+.label-blank > .label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
 
 /* line 3, ../sass/sass/app/_carousel.scss */
 .carousel {
@@ -8628,5 +8643,15 @@ button.close {
 }
 /* line 39, ../sass/sass/app/_news.scss */
 .news-actions a {
+  color: #999;
+}
+
+/* line 3, ../sass/sass/app/_list.scss */
+.list {
+  padding-left: 10px;
+}
+/* line 7, ../sass/sass/app/_list.scss */
+.list > li > a {
+  line-height: 23px;
   color: #999;
 }

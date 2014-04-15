@@ -100,4 +100,16 @@
 	padding: 18px 0;
 	border: solid 1px #dcdcdc;
 	border-top: none;
+	&.padding {
+		padding-left: 18px;
+		padding-right: 18px;
+	}
+}
+
+.label-blank {
+	margin: 0 -5px;
+	> .label {
+		display: inline-block;
+		margin-bottom: 5px;
+	}
 }
