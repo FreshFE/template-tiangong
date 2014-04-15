@@ -221,6 +221,26 @@
 	}
 }
 
+.col-block-heading {
+	height: 78px;
+	border: solid 1px #ccc;
+	background: url(../img/profile_bg.png) repeat;
+	@include box-shadow(0 3px 0 rgba(0,0,0,.1));
+
+	> h2 {
+		color: #333;
+		font-size: 20px;
+		line-height: 78px;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+
+		.important {
+			color: #ea510b;
+		}
+	}
+}
+
 .pagination {
 
 	> li {

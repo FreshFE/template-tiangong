@@ -8059,18 +8059,41 @@ button.close {
   color: #666;
 }
 
-/* line 228, ../sass/sass/app/_layout.scss */
+/* line 224, ../sass/sass/app/_layout.scss */
+.col-block-heading {
+  height: 78px;
+  border: solid 1px #ccc;
+  background: url(../img/profile_bg.png) repeat;
+  -webkit-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 230, ../sass/sass/app/_layout.scss */
+.col-block-heading > h2 {
+  color: #333;
+  font-size: 20px;
+  line-height: 78px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+/* line 238, ../sass/sass/app/_layout.scss */
+.col-block-heading > h2 .important {
+  color: #ea510b;
+}
+
+/* line 248, ../sass/sass/app/_layout.scss */
 .pagination > li > span,
 .pagination > li > a {
   color: #ea510b;
 }
-/* line 236, ../sass/sass/app/_layout.scss */
+/* line 256, ../sass/sass/app/_layout.scss */
 .pagination > li > a:hover, .pagination > li > a:focus,
 .pagination > li > span:hover,
 .pagination > li > span:focus {
   color: #ea510b;
 }
-/* line 245, ../sass/sass/app/_layout.scss */
+/* line 265, ../sass/sass/app/_layout.scss */
 .pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus,
 .pagination > .active > span,
 .pagination > .active > span:hover,
