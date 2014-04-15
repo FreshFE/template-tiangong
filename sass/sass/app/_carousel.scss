@@ -4,6 +4,16 @@
 	margin-bottom: 20px;
 }
 
+.carousel-inner {
+	> .item {
+		> img,
+		> a > img {
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+}
+
 .carousel-indicators {
 	bottom: 5px;
 	li {

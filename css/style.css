@@ -8090,21 +8090,28 @@ button.close {
   margin-bottom: 20px;
 }
 
-/* line 7, ../sass/sass/app/_carousel.scss */
+/* line 10, ../sass/sass/app/_carousel.scss */
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 17, ../sass/sass/app/_carousel.scss */
 .carousel-indicators {
   bottom: 5px;
 }
-/* line 9, ../sass/sass/app/_carousel.scss */
+/* line 19, ../sass/sass/app/_carousel.scss */
 .carousel-indicators li {
   border: none;
   background: #e5e5e5;
 }
-/* line 13, ../sass/sass/app/_carousel.scss */
+/* line 23, ../sass/sass/app/_carousel.scss */
 .carousel-indicators .active {
   background: #ea510b;
 }
 
-/* line 18, ../sass/sass/app/_carousel.scss */
+/* line 28, ../sass/sass/app/_carousel.scss */
 .carousel-caption {
   display: none;
 }
