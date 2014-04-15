@@ -58,6 +58,16 @@
 	}
 }
 
+.col-heading.col-heading-sm {
+	height: 30px;
+
+	> h2 {
+		height: 30px;
+		line-height: 18px;
+		font-size: 16px;
+	}
+}
+
 .col-block-heading {
 	height: 78px;
 	border: solid 1px #ccc;
@@ -80,4 +90,14 @@
 }
 
 .well-sidebar {
+	margin-bottom: 20px;
+	> .col-heading {
+		margin-bottom: 0;
+	}
+}
+
+.well-sidebar-body {
+	padding: 18px 0;
+	border: solid 1px #dcdcdc;
+	border-top: none;
 }

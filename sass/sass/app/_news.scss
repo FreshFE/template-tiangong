@@ -1,0 +1,42 @@
+.news {
+
+}
+
+.news-body {
+	border: solid 1px #e5e5e5;
+	padding: 18px;
+}
+
+.news-heading {
+	margin-bottom: 20px;
+	border-bottom: solid 1px #e5e5e5;
+	padding-bottom: 20px;
+	> h1 {
+		font-size: 20px;
+		color: #666;
+		margin-top: 0;
+	}
+
+	> .published-date {
+		color: #b1b1b1;
+		margin-right: 20px;
+	}
+
+	> .label {
+
+	}
+}
+
+.news-contents {
+	img {
+		display: block;
+		margin-bottom: 20px;
+	}
+}
+
+.news-actions {
+	padding: 20px 0;
+	a {
+		color: #999;
+	}
+}
