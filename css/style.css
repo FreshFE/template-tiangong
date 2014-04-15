@@ -8029,7 +8029,33 @@ button.close {
   color: #bbbbbb;
 }
 
-/* line 197, ../sass/sass/app/_layout.scss */
+/* line 1, ../sass/sass/app/_utils.scss */
+.img-fullscreen {
+  display: block;
+  width: 100%;
+}
+
+/* line 10, ../sass/sass/app/_utils.scss */
+.pagination > li > span,
+.pagination > li > a {
+  color: #ea510b;
+}
+/* line 18, ../sass/sass/app/_utils.scss */
+.pagination > li > a:hover, .pagination > li > a:focus,
+.pagination > li > span:hover,
+.pagination > li > span:focus {
+  color: #ea510b;
+}
+/* line 27, ../sass/sass/app/_utils.scss */
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus,
+.pagination > .active > span,
+.pagination > .active > span:hover,
+.pagination > .active > span:focus {
+  background: #ea510b;
+  border-color: #d2490a;
+}
+
+/* line 34, ../sass/sass/app/_utils.scss */
 .col-heading {
   width: 100%;
   position: relative;
@@ -8037,7 +8063,7 @@ button.close {
   border-bottom: solid 4px #e5e5e5;
   margin-bottom: 20px;
 }
-/* line 203, ../sass/sass/app/_layout.scss */
+/* line 40, ../sass/sass/app/_utils.scss */
 .col-heading > h2 {
   position: absolute;
   font-size: 24px;
@@ -8049,17 +8075,17 @@ button.close {
   top: 0;
   left: 0;
 }
-/* line 214, ../sass/sass/app/_layout.scss */
+/* line 51, ../sass/sass/app/_utils.scss */
 .col-heading > .actions {
   float: right;
 }
-/* line 217, ../sass/sass/app/_layout.scss */
+/* line 54, ../sass/sass/app/_utils.scss */
 .col-heading > .actions > .more {
   line-height: 40px;
   color: #666;
 }
 
-/* line 224, ../sass/sass/app/_layout.scss */
+/* line 61, ../sass/sass/app/_utils.scss */
 .col-block-heading {
   height: 78px;
   border: solid 1px #ccc;
@@ -8069,7 +8095,7 @@ button.close {
   box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
   margin-bottom: 18px;
 }
-/* line 231, ../sass/sass/app/_layout.scss */
+/* line 68, ../sass/sass/app/_utils.scss */
 .col-block-heading > h2 {
   color: #333;
   font-size: 20px;
@@ -8078,35 +8104,9 @@ button.close {
   margin: 0;
   padding: 0;
 }
-/* line 239, ../sass/sass/app/_layout.scss */
+/* line 76, ../sass/sass/app/_utils.scss */
 .col-block-heading > h2 .important {
   color: #ea510b;
-}
-
-/* line 249, ../sass/sass/app/_layout.scss */
-.pagination > li > span,
-.pagination > li > a {
-  color: #ea510b;
-}
-/* line 257, ../sass/sass/app/_layout.scss */
-.pagination > li > a:hover, .pagination > li > a:focus,
-.pagination > li > span:hover,
-.pagination > li > span:focus {
-  color: #ea510b;
-}
-/* line 266, ../sass/sass/app/_layout.scss */
-.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus,
-.pagination > .active > span,
-.pagination > .active > span:hover,
-.pagination > .active > span:focus {
-  background: #ea510b;
-  border-color: #d2490a;
-}
-
-/* line 1, ../sass/sass/app/_utils.scss */
-.img-fullscreen {
-  display: block;
-  width: 100%;
 }
 
 /* line 3, ../sass/sass/app/_carousel.scss */

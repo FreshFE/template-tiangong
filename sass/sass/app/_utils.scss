@@ -2,3 +2,82 @@
 	display: block;
 	width: 100%;
 }
+
+.pagination {
+
+	> li {
+		> span,
+		> a {
+			color: #ea510b;
+		}
+	}
+
+	> li > a,
+	> li > span {
+		&:hover,
+		&:focus {
+			color: #ea510b;
+		}
+	}
+
+	> .active > a,
+	> .active > span {
+		&,
+		&:hover,
+		&:focus {
+			background: #ea510b;
+			border-color: darken(#ea510b, 5%);
+		}
+	}
+}
+
+.col-heading {
+	width: 100%;
+	position: relative;
+	height: 40px;
+	border-bottom: solid 4px #e5e5e5;
+	margin-bottom: 20px;
+	> h2 {
+		position: absolute;
+		font-size: 24px;
+		height: 40px;
+		margin: 0;
+		padding: 0;
+		line-height: 30px;
+		border-bottom: solid 4px #ea510b;
+		top: 0;
+		left: 0;
+	}
+	> .actions {
+		float: right;
+
+		> .more {
+			line-height: 40px;
+			color: #666;
+		}
+	}
+}
+
+.col-block-heading {
+	height: 78px;
+	border: solid 1px #ccc;
+	background: url(../img/profile_bg.png) repeat;
+	@include box-shadow(0 3px 0 rgba(0,0,0,.1));
+	margin-bottom: 18px;
+
+	> h2 {
+		color: #333;
+		font-size: 20px;
+		line-height: 78px;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+
+		.important {
+			color: #ea510b;
+		}
+	}
+}
+
+.well-sidebar {
+}
