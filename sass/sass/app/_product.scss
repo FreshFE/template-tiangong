@@ -98,3 +98,18 @@ $product-padding: 18px;
 		max-width: 100%;
 	}
 }
+
+.product-carousel {
+	.carousel {
+
+	}
+
+	.carousel-inner {
+		> .item {
+			> img,
+			> a > img {
+				width: 100%;
+			}
+		}
+	}
+}
