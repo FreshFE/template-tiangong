@@ -8284,35 +8284,44 @@ button.close {
   border: solid 1px #e5e5e5;
 }
 
-/* line 103, ../sass/sass/app/_card.scss */
+/* line 99, ../sass/sass/app/_card.scss */
+.news-card {
+  height: 414px;
+  overflow: hidden;
+}
+
+/* line 104, ../sass/sass/app/_card.scss */
 .news-card-heading {
   margin-bottom: 20px;
 }
-/* line 105, ../sass/sass/app/_card.scss */
+/* line 106, ../sass/sass/app/_card.scss */
 .news-card-heading a {
   font-size: 20px;
   color: #666666;
 }
-/* line 109, ../sass/sass/app/_card.scss */
+/* line 110, ../sass/sass/app/_card.scss */
 .news-card-heading em {
   font-style: normal;
   line-height: 28px;
   color: #b1b1b1;
 }
 
-/* line 116, ../sass/sass/app/_card.scss */
+/* line 117, ../sass/sass/app/_card.scss */
 .news-card-desc {
   margin-bottom: 20px;
   color: #b1b1b1;
 }
 
-/* line 121, ../sass/sass/app/_card.scss */
+/* line 122, ../sass/sass/app/_card.scss */
 .news-card-object {
   margin-bottom: 20px;
+  height: 250px;
+  overflow: hidden;
 }
-/* line 123, ../sass/sass/app/_card.scss */
+/* line 126, ../sass/sass/app/_card.scss */
 .news-card-object img {
   width: 100%;
+  max-height: 250px;
 }
 
 /* line 1, ../sass/sass/app/_picture.scss */
